@@ -1,4 +1,4 @@
-# 🧠 4-Way Set-Associative LRU Replacement Policy (Verilog)
+#  4-Way Set-Associative LRU Replacement Policy (Verilog)
 
 This project implements a **True LRU (Least Recently Used)** replacement module in Verilog for a 4-way set-associative cache. It includes a **fully synthesizable RTL module** and a **self-checking SystemVerilog testbench** for functional verification using GTKWave.
 
@@ -6,7 +6,7 @@ This project implements a **True LRU (Least Recently Used)** replacement module 
 
 ---
 
-## 📌 Features
+##  Features
 
 - ✅ **True LRU Policy**: Strict rank-based aging (0 = MRU, 3 = LRU) per set and per way
 - ✅ **Post-update victim selection**: Ensures recently accessed line is never evicted
@@ -17,5 +17,5 @@ This project implements a **True LRU (Least Recently Used)** replacement module 
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
